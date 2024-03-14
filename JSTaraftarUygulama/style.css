@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color:bisque;
+
+}
+#secenekler{
+    display: flex;
+    gap: 10px;
+    width: 150px;
+    height: 50px;
+
+
+}
+
+.secenek{
+    flex: 1 1 200px;
+    max-width: 250px;
+    background-color: rgb(211, 152, 130);
+    border-radius: 5px;
+}
+img{
+    width: 350px;
+    height: 350px;
+}
+button{
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    border: 0px solid rgb(236, 236, 0);
+}
